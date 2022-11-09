@@ -1,0 +1,35 @@
+body{
+    background-image: url("../assets/background.jpeg");
+    background-size: cover;
+}
+
+#login{
+    display: inline-block;
+    position: absolute;
+    top:25%;
+    left:35%;
+    background-color: #e9e9e8;
+    padding:5%;
+}
+
+label{
+    padding:5px;
+    margin:5px;
+}
+
+input[type=text],input[type=password] {
+    width:200px;
+    padding: 10px;
+    margin: 10px;
+    color: #808080;
+  }
+
+  button{
+    padding: 5px;
+    margin:25px;
+    background-color:greenyellow;
+  }
+
+  #button{
+    text-align:center;
+  }
